@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{7aded862-81e5-4173-a1b5-f742c3ca5b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread">
+      <UniqueIdentifier>{7fdf235b-679a-4f88-b2b6-3fcd6e521edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ServerManager">
+      <UniqueIdentifier>{b3caf422-2b5e-43a6-9e75-17af46a3da74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ServerManager\ServerClient">
+      <UniqueIdentifier>{f9c27e05-2e83-443b-9fcc-a3826a11155a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ServerManager\Server">
+      <UniqueIdentifier>{e3db7758-9d61-491d-b538-6b637cd2dff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Callbacks">
+      <UniqueIdentifier>{ea33b853-ac40-455c-a24a-bef4c5880381}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\ServerSocketManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerClient.h">
+      <Filter>Source Files\ServerManager\ServerClient</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSocketManager.h">
+      <Filter>Source Files\ServerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>Source Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Source Files\ServerManager\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManager.h">
+      <Filter>Source Files\ServerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerThreadCallbacks.h">
+      <Filter>Source Files\Callbacks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServerClient.cpp">
+      <Filter>Source Files\ServerManager\ServerClient</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\ServerManager\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManager.cpp">
+      <Filter>Source Files\ServerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
